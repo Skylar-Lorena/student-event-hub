@@ -48,3 +48,28 @@ img {
 .nav-links a:hover {
     color: #38bdf8;
 }
+
+/* ========== HERO SECTION ========== */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+    background: linear-gradient(to right, #e0f2fe, #f8fafc);
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.hero-image img {
+    border-radius: 12px;
+}
