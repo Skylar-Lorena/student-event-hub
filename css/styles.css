@@ -1,0 +1,37 @@
+li{
+    color: rgb(20, 20, 154);
+}
+
+body{
+    background-image:url("/public/assets/students_learning.jpg") ;
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    color: red ;
+}
+
+#main_title{
+    color: plum;
+}
+h1{
+    background-color: ;
+}
+
+/* ids hold a higher hierachy than classes
+ids will always override classes */
+
+
+
+
+/* paths
+
+paths - GPS cordinates for your computer.
+absolute paths- full address- always points to the same exact spot on the internet or hard drive
+relative paths(standard-best practice) - point to a file we're currently editing. 
+.-something is nested--not in the parent folder
+..
+/- root/parent folder
+*/
