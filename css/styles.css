@@ -1,37 +1,19 @@
-li{
-    color: rgb(20, 20, 154);
+/* ========== RESET / BASE ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-image:url("/public/assets/students_learning.jpg") ;
-    background-repeat: no-repeat;  
-    background-size: cover;
-    background-position: center;
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f9fc;
 }
 
-.title{
-    color: red ;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-#main_title{
-    color: plum;
-}
-h1{
-    background-color: ;
-}
-
-/* ids hold a higher hierachy than classes
-ids will always override classes */
-
-
-
-
-/* paths
-
-paths - GPS cordinates for your computer.
-absolute paths- full address- always points to the same exact spot on the internet or hard drive
-relative paths(standard-best practice) - point to a file we're currently editing. 
-.-something is nested--not in the parent folder
-..
-/- root/parent folder
-*/
