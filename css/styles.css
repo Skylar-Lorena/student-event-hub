@@ -104,3 +104,14 @@ img {
     background-color: #0ea5e9;
     color: white;
 }
+
+/* ========== SECTIONS ========== */
+.section {
+    padding: 60px 40px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
