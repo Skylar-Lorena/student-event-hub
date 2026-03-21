@@ -27,12 +27,6 @@ img {
     color: #fff;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-/* ========== LOGO ========== */
 .logo-container {
     display: flex;
     align-items: center;
@@ -141,7 +135,14 @@ img {
     color: #0f172a;
 }
 
-/* ========== EVENT CARDS ========== */
+/* ========== EVENT CARDS / PORTFOLIO SECTION ========== */
+#upcoming {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .event-card {
     background-color: white;
     padding: 20px;
@@ -152,7 +153,7 @@ img {
 }
 
 .event-card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05);
 }
 
 .event-card h3 {
@@ -171,7 +172,7 @@ li {
 }
 
 /* ========== FOOTER ========== */
-footer {
+#footer {
     text-align: center;
     padding: 20px;
     background-color: #0f172a;
